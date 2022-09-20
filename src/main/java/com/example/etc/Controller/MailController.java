@@ -15,7 +15,7 @@ public class MailController {
 
     @GetMapping("/")
     public String MailPage(){
-        return "Mail";
+        return "certification";
     }
 
     @PostMapping("/mail")

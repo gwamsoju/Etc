@@ -21,9 +21,7 @@ public class MailService {
         message.setFrom(senderEmail);
         message.setSubject(mailVo.getTitle());
         message.setText(mailVo.getContent());
-        
+
         javaMailSender.send(message);
     }
-
-
 }
